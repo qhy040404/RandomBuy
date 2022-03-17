@@ -2,7 +2,7 @@
 
 A little program for myself to record my saving experience.
 
-##Build
+## Build
 
 The code is all written in Visual Studio 2022 Community. 
 Download Visual Studio 2022 Community for free and open ```.sln``` the solution file.
