@@ -39,7 +39,7 @@ int main()
 	system("timeout 1 >nul && del %temp%\\temp.bat");
 	ofstream filesave;
 	filesave.open(TxtPath.c_str());
-	filesave << setprecision(2) << sum + (input * random);
+	filesave << setiosflags(ios::fixed) << setprecision(2) << sum + (input * random);
 	filesave.close();
 	cout << endl << endl;
 	system("@echo off && echo 按一下退出吧0.0 && pause >nul");
