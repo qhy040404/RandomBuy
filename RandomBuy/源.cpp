@@ -25,7 +25,7 @@ int main()
 	srand((unsigned)time(NULL));
 	random = double(rand() % 100) / 100;
 	withdraw = input * random;
-	int temp = (int)(withdraw * 100);
+	__int64 temp = (__int64)(withdraw * 100);
 	withdraw = temp / 100.0;
 	cout << setiosflags(ios::fixed) << setprecision(2);
 	cout << "´æÕâÃ´¶à°É£º" << withdraw;
