@@ -9,13 +9,9 @@
 using namespace std;
 int main()
 {
-	char TempPath[MAX_PATH] = { 0 };
 	char AppPath[MAX_PATH] = { 0 };
-	GetTempPathA(MAX_PATH, TempPath);
 	GetCurrentDirectoryA(MAX_PATH, AppPath);
-	string BatPath = TempPath;
 	string TxtPath = AppPath;
-	BatPath += "temp.bat";
 	TxtPath += "\\save.txt";
 	double input;
 	double random;
@@ -54,13 +50,6 @@ int main()
 	save >> sum;
 	save.close();
 	cout << endl << "已经存了这么多了呢：" << sum + withdraw;
-	ofstream bat;
-	bat.open(BatPath.c_str());
-	bat << "@echo off" << endl;
-	bat << "del " << TxtPath.c_str() << endl;
-	bat.close();
-	system("%temp%\\temp.bat");
-	system("timeout 1 >nul && del %temp%\\temp.bat");
 	ofstream filesave;
 	filesave.open(TxtPath.c_str());
 	filesave << setiosflags(ios::fixed) << setprecision(2) << sum + withdraw;
