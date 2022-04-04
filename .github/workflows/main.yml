@@ -32,5 +32,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Compile
         run: |
-            cd src
-            g++ -o test.o Դ.cpp
+            g++ -o test.o source.cpp
