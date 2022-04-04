@@ -5,6 +5,8 @@
 [![Github last commit date](https://img.shields.io/github/last-commit/qhy040404/RandomBuy.svg?label=Updated&logo=github&cacheSeconds=600)](https://github.com/qhy040404/RandomBuy/commits)
 [![License](https://img.shields.io/github/license/qhy040404/RandomBuy.svg?label=License&logo=github&cacheSeconds=2592000)](https://github.com/qhy040404/RandomBuy/blob/master/LICENSE)
 
+![GitHub top language](https://img.shields.io/github/languages/top/qhy040404/RandomBuy)
+
 A little program for myself to record my saving experience.
 
 ## Build
