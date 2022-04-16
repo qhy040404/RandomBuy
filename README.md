@@ -14,12 +14,13 @@ A little program for myself to record my saving experience.
 - The code is all written in Visual Studio 2022 Community. 
 - Download Visual Studio 2022 Community for free and open ```.sln``` the solution file. 
 - And then build the code.
+- g++ also supports.
 
 ## Notice
 
 - The program is using Chinese, if you want to use other language, translate it by yourself or Google.
-- Ï¹jbÐ´µÄ£¬ÄÜÓÃ¾ÍÐÐ
+- çžŽjbå†™çš„ï¼Œèƒ½ç”¨å°±è¡Œ
 
-- àËº¦àË
+- å—¨å®³å—¨
 
 ![](mdres/oldeight.jpeg)
